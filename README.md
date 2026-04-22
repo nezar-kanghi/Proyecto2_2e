@@ -4,7 +4,7 @@ Este proyecto trata sobre un programa java para gestionar artistas, conciertos y
 
 El programa se estructura en varias clases:
 
-Artista.java - Representa un artista (ID, nombre, generoMusical y paisOrigen)
+Artista.java - Representa un artista (ID, nombre, generoMusical y paisOrigen).
                Con sus respectivos Constructores, Getters-Setters y metodo ToString.
                
 Concierto.java - Representa un concierto (ID, artista, fecha, lugar, precioEntrada)
