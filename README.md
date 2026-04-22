@@ -1,6 +1,7 @@
 SISTEMA DE GESTION DE CONCIERTOS
 
-Este proyecto trata sobre un programa java para gestionar artistas, conciertos y ventas de entradas, conectada a una base de datos Oracle
+Este proyecto trata sobre un programa java para gestionar artistas, conciertos y ventas de entradas, conectada a una base de datos Oracle.
+
 El programa se estructura en varias clases:
 
 Artista.java - Representa un artista (ID, nombre, generoMusical y paisOrigen)
