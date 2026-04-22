@@ -38,11 +38,19 @@ El programa se estructura en varias clases:
 
 
 Desde el Menu principal main se llamara a los distintos submenus de artista, concierto y entrada mediante varios metodos.
+
 Funciones de Artista: se podra añadir un artista (nombre, género musical, pais de origen), eliminar el artista por ID y Listar a todos los artistas
+
 Funciones de Concierto: se puede Añadir un concierto asignandole un artista de los añadidos en la tabla (lugar, fecha y precio), tambien eliminar un concierto por su id y listar todos los conciertos
+
 Funciones de Entradas: Se puede Registrar la venta de entradas para un concierto añadiendo comprador y la cantidad, tambien puedes seleccionar listar todas las ventas registradas
 
 COMO EJECUTAR EL PROGRAMA:
+
 Tener instalado el JDK
+
 Crear las tablas ARTISTA CONCIERTO Y ENTRADA en Oracle
-Ejecutar el programa, se ejecuta por consola y mostrara un menu: Gestionar artistas, Gestionar conciertos, gestionar entradas, cada una abrira diferentes submenus.
+
+Ejecutar el programa, se ejecuta por consola y mostrara un menu: Gestionar artistas, Gestionar conciertos, gestionar 
+
+entradas, cada una abrira diferentes submenus.
