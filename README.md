@@ -5,23 +5,29 @@ Este proyecto trata sobre un programa java para gestionar artistas, conciertos y
 El programa se estructura en varias clases:
 
 Artista.java - Representa un artista (ID, nombre, generoMusical y paisOrigen).
+
                Con sus respectivos Constructores, Getters-Setters y metodo ToString.
                
 Concierto.java - Representa un concierto (ID, artista, fecha, lugar, precioEntrada)
+
                Con sus respectivos Constructores, Getters-Setters y metodo ToString.
 
 Entrada.java - Estructura modelo de la entrada (ID, concierto, comprador, cantidad, fechaCompra)
+
                Con sus respectivos Constructores, Getters-Setters y metodo ToString.
                
 ConexionBD.java - Para conectar con Oracle
 
 ArtistaDAO.java - Donde se realizaran las operaciones CRUD para artistas
+
                Cuenta con el metodo para insertar Artista, el metodo listarTodos que lo guarda en una lista, el metodo buscarPorId y el metodo eliminar
                
 ConciertoDAO.java - Donde se realizaran las operaciones CRUD de conciertos
+
                Cuenta con el metodo insertar, listarTodos al igual que Artista pero esta vez guarda las cosas en una nueva lista List<Concierto>, el metodo buscarPorId y el metodo eliminar
                
 EntradaDAO.java - Operaciones CRUD de entradas
+
                Cuenta al igual que las otras dos clases con el metodo insertar y con el metodo ListarTodas y su lista List<Entrada>
                
 Main.java - Donde estaran los menus y submenus
