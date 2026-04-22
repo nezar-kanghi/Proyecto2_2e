@@ -24,11 +24,11 @@ El programa se estructura en varias clases:
                
 -ConciertoDAO.java - Donde se realizaran las operaciones CRUD de conciertos
 
-  Cuenta con el metodo insertar, listarTodos al igual que Artista pero esta vez guarda las cosas en una nueva lista            List<Concierto>, el metodo buscarPorId y el metodo eliminar
+  Cuenta con el metodo insertar, listarTodos al igual que Artista, el metodo buscarPorId y el metodo eliminar
                
 -EntradaDAO.java - Operaciones CRUD de entradas
 
-  Cuenta al igual que las otras dos clases con el metodo insertar y con el metodo ListarTodas y su lista List<Entrada>
+  Cuenta al igual que las otras dos clases con el metodo insertar y con el metodo ListarTodas y su lista ListEntrada
                
 -Main.java - Donde estaran los menus y submenus
 
